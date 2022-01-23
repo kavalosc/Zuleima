@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+p {
+    color: dimgray;
+}
+
+.logo {
+    display: flex;
+    vertical-align: middle;
+    color: black;
+}
+
+.logo h4 {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.logo p {
+    margin-left: .5em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5em;
+}
+
+nav a {
+    margin: .5em;
+}
+
+a {
+    text-decoration: none;
+    color:dimgrey;
+}
+a:hover {
+    color: cadetblue;
+}
+
+.active {
+    text-align: center;
+    border-bottom: 2px solid cadetblue;
+}
+
+/* Index page */
+
+header {
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1 {
+    margin: .5em;
+    font-weight: bold;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+.line a {
+    margin: 1.5em;
+    display: flex;
+}
+
+.line p {
+    margin-left: .3em;
+    color: black;
+}
+
+/* Contact Page */
+.form-row {
+    display: flex;
+    margin: 1em;
+}
+
+button {
+    background-color: cadetblue;
+    width: 6em;
+    height: 3em;
+    color: white;
+    border: solid transparent;
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid cadetblue;
+    color: cadetblue;
+}
+
+.center {
+    text-align: center;
+    margin: 1em;
+}
+
+.container {
+    margin-top: 3em;
+}
+
+/* About page */
+
+.about-page {
+    background-image: ;
+}
