@@ -25,36 +25,80 @@
         </nav>
 
         <div class="container">
-            <div class="center">
-                <h2>Get in touch.</h2>
-                <p> sub heading goes here</p>
-            </div>
-            <form action="action_page.php">
-                <div class="container">
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <input type="text" id="fname" class="form-control" name="firstname" placeholder="First name">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="text" id="lname" class="form-control" name="lastname" placeholder="Last name">
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                        <input type="email" id="email" class="form-control" name="email" placeholder="Email">
-                    </div>
-
-                    <div class="form-row">
-                        <input type="text" id="subject" class="form-control" name="subject" placeholder="Subject">
-                    </div>
-                    <div class="form-row">
-                        <input type="text" id="message" class="form-control" name="message" placeholder="Your message">
-                    </div>
+            <div class="row">
+                <div class="col">
                     <div class="center">
-                        <button type="submit" id="submit" class="submit">Submit</button>
+                        <h2>Get in touch.</h2>
+                        <p> sub heading goes here</p>
+
+                            <div class="contact-line">
+                                <a>
+                                    <span class="material-icons">phone</span>
+                                    <div class="contact-info">
+                                        <p>Call</p>
+                                        <p id="colored">(714) 425-6960</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="contact-line">
+                                <a href="mailto:zenibaandyubaba@gmail.com">
+                                    <span class="material-icons">email</span>
+                                    <div class="contact-info">
+                                        <p>Email</p>
+                                        <p id="colored">zenibaabdyubaba@gmail.com</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="contact-line">
+                                <a href="https://www.facebook.com/zuleima.avalos.9" target="_blank">
+                                    <span class="material-icons">phone</span>
+                                    <div class="contact-info">
+                                        <p>Message</p>
+                                        <p id="colored">Facebook</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="contact-line">
+                                <a href="https://www.linkedin.com/in/zuleima-avalos-9967672b/" target="_blank">
+                                    <span class="material-icons">phone</span>
+                                    <div class="contact-info">
+                                        <p>Connect</p>
+                                        <p id="colored">LinkedIn</p>
+                                    </div>
+                                </a>
+                        </div>
                     </div>
                 </div>
-            </form>
+                <div class="col" id="form-section">
+                    <h4>Send me a message.</h4>
+                    <form action="action_page.php">
+                        <div class="container">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" id="fname" class="form-control" name="firstname" placeholder="First name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" id="lname" class="form-control" name="lastname" placeholder="Last name">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <input type="email" id="email" class="form-control" name="email" placeholder="Email">
+                            </div>
+
+                            <div class="form-row">
+                                <input type="text" id="subject" class="form-control" name="subject" placeholder="Subject">
+                            </div>
+                            <div class="form-row">
+                                <textarea type="text" id="message" class="form-control" name="message" placeholder="Your message"></textarea>
+                            </div>
+                            <div class="center">
+                                <button type="submit" id="submit" class="submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
 
         <footer>

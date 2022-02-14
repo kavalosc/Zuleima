@@ -106,8 +106,77 @@ button:hover {
     margin-top: 3em;
 }
 
+#message {
+    height: 8em;
+    overflow-y: auto;
+}
+
+input:focus {
+    outline: 2px solid cadetblue;
+}
+
+#colored {
+    color: cadetblue;
+}
+
+#form-section {
+    margin-top: 2em;
+}
+
+#form-section h4 {
+    text-align: center;
+}
+
+.contact-line {
+    display: flex;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 1em;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: .5em;
+    border: solid 1px lightgrey;
+}
+.contact-line p {
+    margin: 0;
+}
+.contact-line a{
+    display: flex;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.contact-line a .contact-info {
+    margin-left: 1em;
+}
+
 /* About page */
 
 .about-page {
-    background-image: ;
+    padding: 10%;
+    background-image: linear-gradient(to bottom, rgba(104, 104, 104, 0.726), rgba(0, 0, 0, 0.863)),
+    url('mexico.JPG');
+    background-size: cover;
+    color: white;
+}
+
+.about-page .container {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.about-page h2 {
+    font-weight: bold;
+}
+
+.about-page p {
+    color: white;
+}
+
+.about-page .row {
+    margin-top: 1.5em;
+}
+#about-added {
+    padding-left: 15%;
+    padding-right: 15%;
 }
